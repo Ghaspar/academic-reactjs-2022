@@ -1,9 +1,11 @@
 @import "bootstrap";
+@import '../src/styles/custom';
+
 body{
-    background-color: #000000;
-    color: #ffffff;
+    background-color: $gray-900;
+    color: $gray-300;
     h1{
-        color: red;
+        color: $green-500;
     }
 }
 
