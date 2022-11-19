@@ -8,8 +8,16 @@ function App() {
   return (
     <>
       <Header />
-      <h2 className='text-center'>hello word</h2>
-      <Post author="Lucas" coments="lorem testestsedf w sdf"/>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+
+          </div>
+          <div className="col-md-8">
+            <Post author="Lucas" coments="lorem testestsedf w sdf"/>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
