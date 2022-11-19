@@ -4,8 +4,17 @@
 body{
     background-color: $gray-900;
     color: $gray-300;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
     h1{
         color: $green-500;
     }
 }
 
+input, textarea, button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
