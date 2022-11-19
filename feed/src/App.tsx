@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <h1 className='text-center'>hello word</h1>
+      <h2 className='text-center'>hello word</h2>
       <Post author="Lucas" coments="lorem testestsedf w sdf"/>
     </>
   )

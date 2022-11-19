@@ -10,5 +10,17 @@ $custom-colors: (
     "green-500": #00875f,
 );
 
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
