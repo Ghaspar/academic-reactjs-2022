@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Post } from '../src/Post'
+import { Post } from './components/Post'
 import { Header } from './components/Header'
 import { Sidebar } from './components/sidebar'
 
