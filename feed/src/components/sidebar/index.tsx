@@ -1,4 +1,5 @@
 import style from './styles.module.scss'
+import { BsPencilSquare } from 'react-icons/bs';
 
 export function Sidebar(){
 
@@ -12,14 +13,19 @@ export function Sidebar(){
                 />
                 <article>
                     <div className={style.profile + " d-flex flex-column text-center"}>
+                        <img 
+                            src="https://avatars.githubusercontent.com/u/12697835?v=4" 
+                            className={style.avatar}
+                            alt="Lucas Gaspar foto perfil" 
+                        />
                         <strong className="text-white">Lucas</strong>
                         <span>Web Developer</span>
                     </div>
                 </article>
                 <footer>
                     <a href="#">
-                        <i className="bi bi-pencil-square"></i>
-                        Editar Perfil
+                        <BsPencilSquare />
+                        Editar meu perfil
                     </a>
                 </footer>
             </aside>
